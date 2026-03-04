@@ -33,11 +33,12 @@ Class imbalance is a common problem in real-world datasets where one class signi
 ├── data/
 │   ├── Balanced_data.csv       # Balanced dataset for comparison
 │   └── Imbalanced_data.csv     # Imbalanced dataset (used in experiments)
-├── Images/
+├── results/
 │   ├── Comparison for Decision Tree.png
 │   ├── Comparison for KNN.png
 │   ├── Comparison for Logistic regression.png
 │   ├── Comparison for Random Forest.png
+|   ├── Comparison for SVC.png
 │   └── Consolidated Comparison.png
 └── techniques/
     ├── balanced_random_forest.py       # Balanced Random Forest implementation
